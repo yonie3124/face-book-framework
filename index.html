@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Final Front End Challenge</title>
+		<link rel="stylesheet" type="text/css" href="./style.css">
+	</head>
+	<body>
+		<div class="logo">
+			<div>
+				<h1><img src="facebook.png" alt="facebook logo"></h1>	
+			</div>
+			<div class="menu-bar">		
+				<p class="emailAndpasswordOfLabel"><label>Email</label>	<br>		
+				<input class="emailPassword" type="text" name="user name"></p>			
+				<p class="emailAndpasswordOfLabel"><label>Password</label><br>
+				<input class="emailPassword" type="Password" name="Password"></p>	
+				<p class="login"><button>Log In</button></p>						
+			</div>			
+		</div>
+		<div id="total-body">
+			<div class="blank-column">
+				
+			</div>
+			<div class="column-1">	
+				<div>				
+					<h5 class="bodyText">Facebook helps you connect and share with <br> people in your life.</h5>
+					<img class="body-image" src="body-image.png" alt="image of fb connection">					
+				</div>			
+			</div>		
+			<div class="column-2">
+				<div class="signup">
+					<p>Sign Up</p>
+					<p>It's free and always will be.</p>
+				</div>
+				<hr>
+				<form class="total-form"  action="process.php" method="POST">
+		          	<div>  
+		               	<label >First Name:</label>
+		               	<input class="theEmptyIcons" type="text" name="firstName">
+		           	</div>
+		            <div>
+		               	<label>Last Name:</label>
+		               	<input class="theEmptyIcons" type="text" name="lastName"> 
+		            </div> 
+		            <div>
+		        		<label>Your Email:</label>
+		                <input class="theEmptyIcons" type="Email" name="Email"> 
+		            </div>  
+		            <div>
+		             	<label>Re-enter Email:</label>
+		                <input class="theEmptyIcons" type="Email" name="Email"> 
+		            </div> 
+		            <div>
+		              	<label>New Password:</label>
+		               	<input class="theEmptyIcons" type="Email" name="Email"> 
+		            </div>
+		            <div>
+		            	<div class="gender">
+		                <label class="gender">I am:</label>		                
+			            <select class="theEmptyIcons" name="Gender">
+			            	 <option value="select sex"> select sex </option>
+			                <option value="male"> Male </option>
+			                <option value="female"> female </option>
+			                <option value="other"> other </option>
+			            </select>
+			            </div>
+		            </div> 
+		            <div>  
+			            <label>Birthday:</label>
+			           <select class="select-inputs">
+                                <option>Month:</option>
+                                <option>months</option>
+                                </select>
+                                <select class="select-inputs">
+                                <option>Day</option>
+                                </select>
+                                <select class="select-inputs">
+                                <option>Year</option>
+                                </select>
+		            </div> 		            
+		        </form> 
+		        <div class="TextBelowForm">
+		           <p> Why do I need to provide my birthday?</p>
+		        </div> <br>
+			        <p class="termsOfAgreement">By clicking Sign Up, you agree to our <a class="terms" href="#">terms</a> and that you have read and understand our <a class="terms" href="#">Data use policy</a></p>	       
+		      	<div id="button">
+		        	<button id="signup1">Sign Up</button>
+		     	</div>
+		        <hr>
+		        <div class="celebrity"> 
+		        	<a class="terms"  href="#">Create  a page </a> for a celebrity, band or business.
+		        </div>
+			</div>
+		</div>
+		<footer class="totalFooter">
+			<div class="footing-Above-hr">							
+				<label><a class="languages" href="#">English (US)</a></label>
+				<label><a class="languages" href="#">Español</a></label>
+				<label><a class="languages" href="#">Português (Brasil)</a></label>
+				<label><a class="languages" href="#">Français (France)</a></label>
+				<label><a class="languages" href="#">Deutsch</a></label>
+				<label><a class="languages" href="#">Italiano</a></label>
+				<label><a class="languages" href="#">العربية</a></label>
+				<label><a class="languages" href="#">नेपाली</a></label>
+				<label><a class="languages" href="#">中文(简体)</a></label>
+				<label><a class="languages" href="#">日本語</a></label>					
+			</div>		
+			<hr>
+			<div class="copyRightAndApps">
+				<div class="copyrights">
+					<span >CopyRight &copy; 2012, <a class="terms" href="#">English (US)</a></span>	
+	            </div>
+				<div class="useFacebook">			
+					<span class="apps"> Mobile.</span> <span class="apps">Find Friends.</span><span class="apps"> Badges.</span><span class="apps"> People. </span> <span class="apps">Pages.</span> <span class="apps">About.</span> <span class="apps">Advertising. </span><span class="apps">Create a page. </span><span class="apps">Developers. </span><span class="apps">Careers. </span><span class="apps">Privacy. </span><span class="apps">Terms.</span> <span class="apps">Help</span>
+				</div>
+			</div>	
+		</footer>
+		<div style="margin-top:200px"></div>
+	</body>
+	</html>
